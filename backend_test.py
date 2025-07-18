@@ -20,16 +20,16 @@ def get_backend_url():
 BASE_URL = f"{get_backend_url()}/api"
 print(f"Using backend URL: {BASE_URL}")
 
-# Test data based on Ajit from the case study (30 years old, actor, risk-averse)
+# Test data based on the review request - Rajesh Sharma
 test_user = {
-    "name": "Ajit Kumar",
-    "age": 30,
-    "occupation": "Actor",
-    "income": 75000.0,
-    "current_savings": 25000.0,
-    "investment_experience": "beginner",
-    "risk_tolerance": "low",
-    "financial_goals": ["retirement", "emergency_fund", "wealth_creation"],
+    "name": "Rajesh Sharma",
+    "age": 28,
+    "occupation": "Software Engineer",
+    "income": 800000.0,
+    "current_savings": 150000.0,
+    "investment_experience": "intermediate",
+    "risk_tolerance": "moderate",
+    "financial_goals": ["wealth", "tax"],
     "investment_timeline": "5-10 years"
 }
 
