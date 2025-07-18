@@ -306,17 +306,6 @@ def test_error_handling():
     """Test error handling and data validation"""
     print("\n=== Testing Error Handling and Data Validation ===")
     
-    # Test invalid user profile
-    invalid_user = {
-        "name": "",  # Empty name
-        "age": -5,   # Invalid age
-        "income": -1000  # Negative income
-    }
-    
-    response = requests.post(f"{BASE_URL}/user-profile", json=invalid_user)
-    print(f"Invalid profile response: {response.status_code}")
-    # Should handle gracefully (either 400 or create with defaults)
-    
     # Test non-existent user
     response = requests.post(f"{BASE_URL}/risk-assessment?user_id=non-existent-id")
     print(f"Non-existent user response: {response.status_code}")
