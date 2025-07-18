@@ -155,6 +155,9 @@ backend:
       - working: true
         agent: "testing"
         comment: "API generates personalized investment recommendations with portfolio allocation (totaling 100%), mutual fund suggestions, detailed rationale, risk mitigation strategies, and expected returns. Data is correctly stored in MongoDB."
+      - working: true
+        agent: "testing"
+        comment: "Enhanced investment recommendations tested successfully with comprehensive mutual fund database. API now provides detailed fund analysis including ratings (4.1-4.6), 3Y/5Y/10Y returns, AUM data, expense ratios, fund managers, and monthly SIP recommendations. Tax implications include ELSS recommendations for tax goals. Investment strategy includes 3-phase approach. All enhanced features working correctly with realistic Indian fund data."
 
   - task: "User Dashboard API"
     implemented: true
