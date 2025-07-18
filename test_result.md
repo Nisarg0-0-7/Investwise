@@ -119,6 +119,9 @@ backend:
       - working: true
         agent: "testing"
         comment: "API successfully creates user profiles with all required fields. Returns a valid user_id and stores data correctly in MongoDB. Tested with realistic user data (30-year-old actor with low risk tolerance)."
+      - working: true
+        agent: "testing"
+        comment: "Enhanced testing completed with Rajesh Sharma profile (28-year-old Software Engineer, ₹8L income, intermediate experience, moderate risk). API successfully creates comprehensive user profiles with all enhanced fields and stores data correctly in MongoDB."
 
   - task: "Behavioral Risk Assessment API"
     implemented: true
