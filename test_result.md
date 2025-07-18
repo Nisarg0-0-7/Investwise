@@ -173,6 +173,9 @@ backend:
       - working: true
         agent: "testing"
         comment: "API successfully retrieves complete user data including profile, risk assessment, and investment recommendations in a single call. All data is correctly formatted and includes all required fields."
+      - working: true
+        agent: "testing"
+        comment: "Enhanced dashboard API tested successfully. Comprehensive data retrieval includes all enhanced fields: investment personality, market sentiment, tax implications, investment strategy, SIP recommendations, and rebalancing frequency. All data correctly formatted and accessible through single API call."
 
   - task: "MongoDB Database Integration"
     implemented: true
