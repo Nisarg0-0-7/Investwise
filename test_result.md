@@ -137,6 +137,9 @@ backend:
       - working: true
         agent: "testing"
         comment: "API correctly analyzes user behavioral profile, calculates risk score, identifies biases (loss aversion and overconfidence for our test user), and stores assessment data in MongoDB."
+      - working: true
+        agent: "testing"
+        comment: "Enhanced behavioral analysis tested successfully. New comprehensive analysis includes investment personality (Wealth Creator), market sentiment (Optimistic and growth-oriented), and enhanced bias detection (sector_bias, recency_bias, overconfidence_bias for tech professional). Risk score calculation improved with occupation-based factors. All enhanced fields working correctly."
 
   - task: "Investment Recommendations API"
     implemented: true
